@@ -1,0 +1,24 @@
+spring:
+  application:
+    name: RATING-SERVICE
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/ratingdb
+    username: root
+    password: pass@word1
+  jpa:
+    show-sql: true
+    properties:
+      hibernate.format_sql: true
+    hibernate:
+      ddl-auto: update
+      dialect: org.hibernate.dialect.MySQL5Dialect
+
+server:
+  port: 9004
+
+
+
+
+
+
